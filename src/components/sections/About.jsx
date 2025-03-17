@@ -8,7 +8,7 @@ export const About =() => {
         <section id="about" className="min-h-screen flex items-center justify-center py-20">
             <RevealOnScroll>
                 <div className="max-w-4xl mx-auto px-4">
-                    <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-red-500 to-green-400 bg-clip-text
+                    <h2 className="text-5xl font-bold mb-8 bg-gradient-to-r from-red-500 to-yellow-400 bg-clip-text
                         text-transparent text-center">
                         {" "}
                         About Me
@@ -50,11 +50,11 @@ export const About =() => {
                                         <strong className="text-lg"> Fullstack Developer </strong> : Företagsuniversitetet (2024 - 2026)
                                     </li>
                                     <li className="rounded-xl pl-3 pt-3 pb-3 mt-2 bg-gradient-to-r from-red-500 to-green-400 text-sm min-h-45 ">
-                                        <p className="text-green-900 font-bold h-full flex items-center text-lg">Frontend Development: (Currently Learning)</p>
+                                        <p className="text-white-700 font-bold h-full flex items-center text-lg">Frontend Development: (Currently Learning)</p>
                                         <ul className="flex flex-col space-y-4 h-full">
-                                            <li className="text-lg">Technologies: HTML, CSS, JavaScript, TypeScript.</li>
-                                            <li className="text-lg">Frameworks & Libraries: React, Angular, TailwindCSS.</li>
-                                            <li className="text-lg">Tools: Figma, Git.</li>
+                                            <li className="text-lg text-green-700 font-bold">Technologies: HTML, CSS, JavaScript, TypeScript.</li>
+                                            <li className="text-lg text-green-700 font-bold">Frameworks & Libraries: React, Angular, TailwindCSS.</li>
+                                            <li className="text-lg text-green-700 font-bold">Tools: Figma, Git.</li>
                                         </ul>
                                     </li>
                                 </ul>
